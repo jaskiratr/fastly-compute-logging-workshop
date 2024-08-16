@@ -1,0 +1,1 @@
+# fastly-compute-logging-workshop
