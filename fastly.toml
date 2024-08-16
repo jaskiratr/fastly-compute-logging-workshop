@@ -1,0 +1,19 @@
+# This file describes a Fastly Compute package. To learn more visit:
+# https://www.fastly.com/documentation/reference/compute/fastly-toml
+
+authors = ["jaskiratr@gmail.com"]
+cloned_from = "https://github.com/fastly/compute-starter-kit-javascript-empty"
+description = ""
+language = "javascript"
+manifest_version = 3
+name = "js-logging-test"
+service_id = ""
+
+[scripts]
+  build = "npm run build"
+  post_init = "npm install"
+
+[local_server]
+  [local_server.backends]
+    [local_server.backends.origin_0]
+      url = "https://httpbin.org/"
