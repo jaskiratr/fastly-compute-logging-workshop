@@ -7,12 +7,10 @@ description = ""
 language = "javascript"
 manifest_version = 3
 name = "js-logging-test"
-service_id = "6GgFwz8cUeCVGzlqT8c4V5"
+service_id = ""
 
 [local_server]
-
   [local_server.backends]
-
     [local_server.backends.origin_0]
       url = "https://httpbin.org/"
 
